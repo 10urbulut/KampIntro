@@ -11,7 +11,8 @@ namespace Metotlar
             urun1.Adi = "Elma";
             urun1.Fiyati = 15;
             urun1.Aciklama = "Amasya elması";
-
+            //deneme github
+            Console.WriteLine("deniyorum git hub");
             Urun urun2 = new Urun();
             urun2.Adi = "Karpuz";
             urun2.Fiyati = 80;

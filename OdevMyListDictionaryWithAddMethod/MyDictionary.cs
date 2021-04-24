@@ -32,5 +32,10 @@ namespace OdevMyDictionaryWithAddMethod
             Keys[Keys.Length - 1] = Key;
             Values[Values.Length - 1] = Value;
         }
+        public int Length
+        {
+            get { return Keys.Length; }
+
+        }
     }
 }
